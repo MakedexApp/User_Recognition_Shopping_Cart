@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 총 금액을 표시할 텍스트 (화면 가운데 배치) -->
+    <TextView
+        android:id="@+id/totalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 결제 금액: 0원"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" /> <!-- 화면 가운데 수직/수평 정렬 -->
+
+    <!-- 결제 안내 메시지 (총 금액 아래에 배치) -->
+    <TextView
+        android:id="@+id/checkoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="결제할 카드를 찍으세요"
+        android:textSize="20sp"
+        android:layout_below="@id/totalAmountText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/ic_back_arrow"
+        android:background="@null"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 장바구니 타이틀 -->
+    <TextView
+        android:id="@+id/cartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장바구니"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- 장바구니 상품 목록을 표시할 RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/cartTitle"
+        android:layout_above="@id/checkoutLayout"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical" />
+
+    <!-- 결제 및 합계를 표시하는 하단 레이아웃 -->
+    <LinearLayout
+        android:id="@+id/checkoutLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/totalAmountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="합계: 0원"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/checkoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="결제하기" />
+    </LinearLayout>
+
+</RelativeLayout>

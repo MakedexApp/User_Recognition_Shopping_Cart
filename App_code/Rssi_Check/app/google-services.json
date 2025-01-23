@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "961174767320",
+    "firebase_url": "https://sscproject-4e165-default-rtdb.firebaseio.com",
+    "project_id": "sscproject-4e165",
+    "storage_bucket": "sscproject-4e165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961174767320:android:61c9455da1a7f3f8b3f9ad",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjsqVWL1MpYuZmUw3OmvbkxaM3_C_JsbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961174767320:android:1cc82a763e9a29d2b3f9ad",
+        "android_client_info": {
+          "package_name": "com.example.rssi_check"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjsqVWL1MpYuZmUw3OmvbkxaM3_C_JsbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961174767320:android:6a4e3f9a2466e558b3f9ad",
+        "android_client_info": {
+          "package_name": "com.example.ssc_phoneapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjsqVWL1MpYuZmUw3OmvbkxaM3_C_JsbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
